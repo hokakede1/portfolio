@@ -22,6 +22,12 @@ header {
 img {
   max-width: 100%;
 }
+footer {
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
 /*************************
 HEADER
 **************************/
@@ -52,8 +58,11 @@ nav a:hover {
 nav {
   margin: 15px 0 0;
 }
+nav a.chosen{
+  color: black;
+}
 /*************************
-BODY
+PAGE: HOME
 **************************/
 .wrapper h3 {
   font-family: 'Lobster', cursive;
@@ -61,6 +70,7 @@ BODY
 }
 .part1 {
   margin: 30px auto 30px;
+  overflow: auto;
 }
 .part2 {
   margin: 30px auto 30px;
@@ -68,12 +78,32 @@ BODY
 section a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
-  color: #52e7f9;
-  text-decoration: underline;
+  color: #00938d;
+  font-style: italic;
+  text-align: center;
+}
+a.omg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  color: #00938d;
+  font-style: italic;
+  text-align: center;
 }
 .part1 ul {
   margin: 20px auto;
 }
-.part1 img {
-  display: inline-block;
+.part1 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.part1 li {
+  width: 25%;
+  float: left;
+  margin: 4.167%;
+}
+.part2 {
+  border-top: 3px #00938d solid;
+  padding-top: 10px;
 }
