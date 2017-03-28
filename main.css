@@ -41,6 +41,9 @@ h1 {
 h2 {
   font-family: 'Lobster', cursive;
   font-size: 1.3em;
+  /*************************
+NAVIGATION
+  **************************/
 }
 nav li {
   display: inline;
@@ -101,9 +104,28 @@ a.omg {
 .part1 li {
   width: 25%;
   float: left;
-  margin: 4.167%;
+  margin: 4.166666667%;
 }
 .part2 {
   border-top: 3px #00938d solid;
   padding-top: 10px;
+}
+/*************************
+PAGE: ABOUT
+**************************/
+.intro h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 1.9em;
+  margin-bottom: 40px;
+  color: skyblue;
+  text-decoration: underline;
+  text-align: center;
+}
+.intro img {
+  border-radius: 100%;
+  width: 300px;
+}
+.des {
+  margin: 30px auto 50px;
+  font-family: 'Open Sans', sans-serif;
 }
