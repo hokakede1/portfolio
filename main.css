@@ -64,6 +64,18 @@ nav {
 nav a.chosen{
   color: black;
 }
+
+/*************************
+PAGE: FOOTER
+**************************/
+  footer {
+    border-top: 2px solid black;
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    margin: 50px auto 0;
+  }
+
+
 /*************************
 PAGE: HOME
 **************************/
@@ -106,6 +118,9 @@ a.omg {
   float: left;
   margin: 4.166666667%;
 }
+.pic1 img, .pic2 img {
+  border-radius: 50%;
+}
 .part2 {
   border-top: 3px #00938d solid;
   padding-top: 10px;
@@ -113,19 +128,80 @@ a.omg {
 /*************************
 PAGE: ABOUT
 **************************/
+.intro {
+  border-bottom: 2px solid #00938d;
+  width: 70%;
+  margin: 10px auto 30px;
+}
 .intro h1 {
   font-family: 'Lobster', cursive;
   font-size: 1.9em;
   margin-bottom: 40px;
   color: skyblue;
-  text-decoration: underline;
+  text-align: center;
+}.intro h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  color: skyblue;
   text-align: center;
 }
 .intro img {
   border-radius: 100%;
-  width: 300px;
+  border: 3px solid #00938d;
+  width: 200px;
+  height: 200px;
+  margin:  20px auto 20px;
+  display: block;
 }
-.des {
-  margin: 30px auto 50px;
+.experience, .education, .story {
+  background: lightgray;
+  margin: 20px auto 20px;
+  width: 80%;
+  padding-left: 20px;
+  padding-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 10px 6px -6px #777;
+  line-height: 1.7em;
+  box-sizing: border-box;
+}
+  /*margin-top: 500px;
+  pointer-events: none;
+}
+.experience, .education, .story, footer {
+  transition: transform 300ms ease-in-out;
+}
+.trigger:hover .experience{
+    transform: translate(0, -450px);
+}
+.trigger:hover .education{
+    transform: translate(0, -900px);
+}
+.trigger:hover .story {
+    transform: translate(0, -1350px);
+}
+.trigger:hover footer {
+    transform: translate(0, -1350px);
+}*/
+
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  padding-top: 10px;
+}
+.experience li, .education li{
+  list-style: circle;
+  padding-top: 10px;
+  list-style-position: inside;
+
+}
+.experience a {
+  font-family: 'Open Sans', sans-serif;
+}
+.story {
+  text-indent: 1em;
+  padding-left: 20px;
+  padding-right: 10px;
 }
