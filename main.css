@@ -24,6 +24,9 @@ img {
 }
 footer {
   text-align: center;
+  background: lightgray;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 ul li {
   list-style: none;
@@ -54,12 +57,14 @@ nav li {
 }
 nav a {
   color: white;
+  display: inline-block;
 }
 nav a:hover {
   color: #0093d8;
 }
 nav {
   margin: 15px 0 0;
+
 }
 nav a.chosen{
   color: black;
@@ -71,8 +76,8 @@ PAGE: FOOTER
   footer {
     border-top: 2px solid black;
     font-family: 'Open Sans', sans-serif;
-    width: 80%;
     margin: 50px auto 0;
+    padding: 25px 0;
   }
 
 
@@ -128,6 +133,7 @@ a.omg {
 /*************************
 PAGE: ABOUT
 **************************/
+
 .intro {
   border-bottom: 2px solid #00938d;
   width: 70%;
@@ -157,7 +163,7 @@ PAGE: ABOUT
 .experience, .education, .story {
   background: lightgray;
   margin: 20px auto 20px;
-  width: 80%;
+  width: 90%;
   padding-left: 20px;
   padding-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -204,4 +210,38 @@ h3 {
   text-indent: 1em;
   padding-left: 20px;
   padding-right: 10px;
+}
+/*************************
+MEDIA QUERIES
+**************************/
+@media (min-width: 980px) {
+  header {
+    position: relative;
+  }
+  .main-header{
+    float: left;
+    padding-left: 20px;
+  }
+  .nav {
+    float: right;
+  }
+  .nav li {
+    display: inline-block;
+    padding-left: 10px;
+
+
+  }
+  .clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  .experience, .education{
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: top;
+
+  }
 }

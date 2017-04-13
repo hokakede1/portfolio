@@ -1,0 +1,17 @@
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: transform 300ms ease-in-out;
+  pointer-events: none;
+}
+.trigger {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border: 10px solid;
+}
+.trigger:hover .box {
+  transform: translate(200px, 150px);
+}
